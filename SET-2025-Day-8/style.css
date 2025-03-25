@@ -1,138 +1,149 @@
-*{
-    margin: 0;
-}
-header{
-    padding: 10px;
-    background-color: #38444d;
-}
-.Header--nav__hover{
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+* {
+  margin: 0;
 }
 
-.Header--nav__hover + .Header--nav__hover {
-    margin-left: 15px;
+header {
+  padding: 10px;
+  background-color: #38444d;
 }
 
-.Header--nav__hover:first-child img {
-    border-radius: 12px;
+.header__nav--hover {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
-.Header--nav__hover:first-child:hover ~ .Header--nav__hover {
-    opacity: 0.5;
-}
-.Header--nav__hover {
+.header__nav--hover + .header__nav--hover {
+  margin-left: 15px;
 }
 
-.Header--nav__hover:hover {
-    background-color: antiquewhite;
-    color: black;
+.header__nav--hover:first-child img {
+  border-radius: 12px;
 }
-.column{
+
+.header__nav--hover:first-child:hover ~ .header__nav--hover {
+  opacity: 0.5;
+}
+
+.header__nav--hover {
+}
+
+.header__nav--hover:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.column {
 
 }
-.Card-text{
-    background-color: #D9EEE1   ;
-    text-align: center;
+
+.Card-text {
+  background-color: #d9eee1;
+  text-align: center;
 }
-.card-text--content{
+
+.card-text__content {
+
+}
+
+.card-text__content span {
+  font-size: 60px;
+}
+
+.card-text__content p {
+  font-family: "Courier New", Courier, monospace;
+  padding: 12px;
+}
+
+.card-text--hover {
+  padding: 12px;
+}
+
+.card-text--hover a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #38444d;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-text--hover a:hover {
+  color: black;
+}
+
+.card-info {
+  background-color: #fff4a3;
+}
+
+.card-info__img img {
+  width: 100%;
+}
+
+.card-info__content {
+  text-align: center;
+  padding: 12px;
+}
+
+.card-info__content {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card-info__content ul {
+
+}
+
+.card-info__content ul li {
+  margin: 12px;
+  font-size: 16px;
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer__about p {
+  background-color: #1d2a35;
+  padding: 24px;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.footer-email {
+  text-align: center;
+  padding: 20px;
+  background-color: #d9eee1;
+}
+
+.footer-email form {
     
 }
-.card-text--content span{
-    font-size: 60px;
-    
+
+.footer-email label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1d2a35;
 }
 
-.card-text--content p{
-    font-family:'Courier New', Courier, monospace;
-    padding: 12px;
+.footer-email input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #1d2a35;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.card-text__hover{
-    padding: 12px;
+.footer-email button {
+  width: 150px;
+  padding: 10px;
+  background-color: #1d2a35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-.card-text__hover a {
-    text-decoration: none;
-    font-size: 16px;
-    color:#38444d;
-    font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.card-text__hover a:hover {
-    color:black  ;
-}
-
-.card-info{
-    background-color: #FFF4A3   ;
-}
-.card-info--img img{
-    width: 100%;
-}
-.card-info--content{
-    text-align:center;
-    padding: 12px;
-}
-.card-info--content {
-    font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.card-info--content ul {
-    
-}
-.card-info--content ul li {
-    margin: 12px;
-    font-size: 16px;
-    list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-.footer--about p{
-    background-color: #1d2a35;
-    padding: 24px;
-    color: white;
-    opacity: 0.7;
-    text-align: center;
-}
-
-.footer-email{
-    text-align: center;
-    padding: 20px;
-    background-color: #D9EEE1;
-}
-
-.footer-email form{
-
-}
-
-.footer-email label{
-    font-size: 16px;
-    font-weight: bold;
-    color: #1d2a35;
-}
-
-.footer-email input{
-    width: 250px;
-    padding: 10px;
-    border: 1px solid #1d2a35;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.footer-email button{
-    width: 150px;
-    padding: 10px;
-    background-color: #1d2a35;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.footer-email button:hover{
-    background-color: #38444d;
+.footer-email button:hover {
+  background-color: #38444d;
 }
