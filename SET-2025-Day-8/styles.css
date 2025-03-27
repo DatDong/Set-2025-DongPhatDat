@@ -27,25 +27,14 @@ header {
   opacity: 0.5;
 }
 
-.header__nav--hover {
-}
-
 .header__nav--hover:hover {
   background-color: antiquewhite;
   color: black;
 }
 
-.column {
-
-}
-
 .Card-text {
   background-color: #d9eee1;
   text-align: center;
-}
-
-.card-text__content {
-
 }
 
 .card-text__content span {
@@ -91,10 +80,6 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.card-info__content ul {
-
-}
-
 .card-info__content ul li {
   margin: 12px;
   font-size: 16px;
@@ -114,10 +99,6 @@ header {
   text-align: center;
   padding: 20px;
   background-color: #d9eee1;
-}
-
-.footer-email form {
-    
 }
 
 .footer-email label {
